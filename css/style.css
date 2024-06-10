@@ -1,0 +1,64 @@
+@charset "UTF-8";
+* {margin: 0;padding: 0;}
+
+#wrap {
+    width: 1200px;
+    height: 700px;
+    background-color: #ddd;
+    margin: 0 auto;
+}
+#wrap header {
+    height: 100px;
+    background-color: red;
+    display: flex;
+}
+#wrap header h1.logo {
+    width: 300px;height: 100px;
+    background-color: blueviolet;
+}
+#wrap header nav.menu {
+    width: 900px; height: 100px;
+    background-color: #484848;
+}
+#wrap main {
+    width: 1200px;height: 500px;
+    background-color: blue;
+}
+#wrap main .slide {
+    width: 1200px;height: 300px;
+    background-color: brown;
+}
+#wrap main .contents {
+    width: 1200px;height: 200px;
+    background-color: burlywood;
+    display: flex;
+}
+#wrap main .contents .notice {
+    width: 400px;height: 200px;
+    background-color:aqua ;
+}
+#wrap main .contents .gallery {
+    width: 400px;height: 200px;
+    background-color:aquamarine ;
+}
+#wrap main .contents .banner {
+    width: 400px;height: 200px;
+    background-color:cornflowerblue ;
+}
+#wrap footer {
+    width: 1200px;height: 100px;
+    background-color: #000;
+    display: flex;
+}
+#wrap footer .blogo {
+    width: 300px;height: 100px;
+    background-color: coral;
+}
+#wrap footer .copyright {
+    width: 600px;height: 100px;
+    background-color: orange;
+}
+#wrap footer .sns {
+    width: 300px;height: 100px;
+    background-color: orangered;
+}
